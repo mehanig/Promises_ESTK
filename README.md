@@ -17,6 +17,8 @@ It invoke and reschedules itself multiple times.
   
 ### How to use
 
+It can only be used with ExtendScript engine, targeting Adobe After Effects. (Other Abobe products not tested yet)
+
 Include `Scheduler` object in your file.
 Use it with global functions, accesible from your main script.
 
