@@ -51,4 +51,7 @@ Note the order of task and milliseconds since starting time.
 
 ### Notes
 
+Process can only be spawned once. Repeating processes itn's supported. Because there is no clear understanding of this behavior at this moment.
+Keep in mind that Adobe Bridge run-loop isn't very fast, so if you run `app.scheduleTask('..', 100, ...);` there is no guarantee that process will spavn after 100ms, it will schedule it to execute after 100ms in run-loop, when VM will be available, so this time might increase dramatically, depending of other processes.
+
 This is VERY experimental.
