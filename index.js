@@ -78,7 +78,6 @@ var Schedule = function (data, delay, repeat, is_rescheduler) {
     }
     RUNLOOP[this._rlId] = {};
     RUNLOOP[this._rlId]._id = this._rlId;
-    RUNLOOP[this._rlId].self = this.toSource();
     RUNLOOP[this._rlId].taskId = app.scheduleTask(data, delay, false);
   } else {
     this._rlId = this.rlId._id;
