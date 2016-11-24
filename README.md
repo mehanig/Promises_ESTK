@@ -17,7 +17,7 @@ It invoke and reschedules itself multiple times.
   
 ### How to use
 
-It can only be used with ExtendScript engine, targeting Adobe After Effects. (Other Abobe products not tested yet)
+It can only be used with ExtendScript engine, targeting Adobe After Effects. (Other Adobe products not tested yet)
 ![adobe](https://cloud.githubusercontent.com/assets/5033274/20584330/ae082cd0-b202-11e6-9de1-0023b90e7607.png)
 
 
